@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+  /* background-image: url(https://i.pinimg.com/564x/36/d0/6f/36d06f197aa7ddffe23391c8be9f99b5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: #03002d;
+  min-height: 100vh;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App h1{
+  /* background-color: #61dafb; */
+  color:#61dafb;
+  margin: 1rem 0px;
+}
+
+#weatherDetails{
+  background-image: url(https://i.pinimg.com/236x/ec/54/0e/ec540ed3e7f073ab248599c509471b87.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: auto;
+  margin: 0;
+  padding: 15px 30px;
+  border-radius: 0px 0px 10px 10px;
+  color:rgb(253, 249, 196);
+}
+#weatherForm{
+  /* background-color: antiquewhite; */
+  padding: 15px 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+#square{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 60px;
+  border-radius: 20px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
